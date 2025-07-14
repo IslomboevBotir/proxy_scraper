@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "proxy-scraper"
+version = "0.1.0"
+description = ""
+authors = ["BotirIslomboev <=>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+scrapy = "^2.13.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
